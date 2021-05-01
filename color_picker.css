@@ -22,6 +22,14 @@ h1 {
 	font-size: 1.6rem;
 }
 
+h1 #header {
+  color: red;
+  font-size: 2.5rem;
+  display: inline-block;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
 #targetColor {
 	font-size: 2.4rem;
 	margin-top: 10px;
@@ -72,7 +80,7 @@ button:hover {
 #stripe {
 	text-align: center;
 	background-color:white;
-	padding: 12px 0;
+	padding: 20px 0;
 }
 
 #message {
@@ -83,6 +91,32 @@ button:hover {
 	letter-spacing: 1px;
 	font-size: inherit;
 	transition: all 0.3s;
+}
+
+#choose {
+  text-align: center;
+  color:#eee;
+  font-size: 1.5rem;
+  margin: 2.5rem auto;
+  width:80%;
+  
+}
+
+
+footer {
+  padding:3rem 0;
+  text-align: center;
+  background-color: steelblue;
+  font-size: 1.2rem;
+  color:#232323;
+
+}
+
+footer p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+
 }
 
 
@@ -97,6 +131,14 @@ button:hover {
 	#targetColor {
 		font-size: 1.5rem;
 	}
+
+  h1 #header {
+    font-size: 1.8rem;
+  }
+
+  #choose {
+    font-size: 1.2rem;
+  }
 
 }
 
@@ -117,6 +159,10 @@ button:hover {
 
 	#stripe {
 	font-size: .7rem;
+}
+
+h1 #header {
+  font-size: 1.5rem;
 }
 
 }
